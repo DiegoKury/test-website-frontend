@@ -1,0 +1,10 @@
+/* Cambia el color del título */
+h1 {
+    color: red;
+  }
+  
+  /* Cambia el color de fondo del botón */
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi sitio de perros</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="perros.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Clase para que cambie de color -->
+    <h1 class="card-header-custom">Mi sitio de perros</h1>
+    <!-- Boton para recargar perro -->
+    <button id="reload-button">Recargar perro</button>
+    <button id="jquery-button">Cambiar color de encabezado</button>
+    <br><br>
+    <!-- Declaracion de contenedor de bootstrap -->
+    <div id="dogs" class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img id="dog-image" class="card-img-top card-img-dog" src="" alt="Imagen de un perro">
+              <div class="card-body">
+                <h5 id="dog-name" class="card-title"></h5>
+                <p id="dog-info" class="card-text"></p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/XuxZI5E72tHjmaIpTlBnITPmeKcyal97jx6k9stkDamQhjVuB2EWrRyWAU6M" crossorigin="anonymous"></script>
+  <!-- JS personalizado -->
+  <script src="perros.js"></script>
+</body>
+</html>
